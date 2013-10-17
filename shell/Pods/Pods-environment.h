@@ -6,16 +6,15 @@
 // project.
 
 
-// JSONKit
-#define COCOAPODS_POD_AVAILABLE_JSONKit
-// This library does not follow semantic-versioning,
-// so we were not able to define version macros.
-// Please contact the author.
-// Version: 1.5pre.
+// AFNetworking
+#define COCOAPODS_POD_AVAILABLE_AFNetworking
+#define COCOAPODS_VERSION_MAJOR_AFNetworking 1
+#define COCOAPODS_VERSION_MINOR_AFNetworking 3
+#define COCOAPODS_VERSION_PATCH_AFNetworking 3
 
-// Reachability
-#define COCOAPODS_POD_AVAILABLE_Reachability
-#define COCOAPODS_VERSION_MAJOR_Reachability 3
-#define COCOAPODS_VERSION_MINOR_Reachability 0
-#define COCOAPODS_VERSION_PATCH_Reachability 0
+// AFOAuth1Client
+#define COCOAPODS_POD_AVAILABLE_AFOAuth1Client
+#define COCOAPODS_VERSION_MAJOR_AFOAuth1Client 0
+#define COCOAPODS_VERSION_MINOR_AFOAuth1Client 3
+#define COCOAPODS_VERSION_PATCH_AFOAuth1Client 1
 
